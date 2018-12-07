@@ -26,12 +26,12 @@ body {
 /* Typography */
 
 h1, h2 {
-
+  color: #e8c04f;
+  font-family: "Love Ya Like A Sister" , sans-serif;
 }
 
 h1 {
-   font-family: "Love Ya Like A Sister" , sans-serif;
-   font-size: 2.5em;
+   font-size: 2.3em;
    text-align: center;
    color:#d17f38; 
    background-image: url(../images/header-divider.png);
@@ -48,26 +48,27 @@ h1 em {
 
 h2 {
    color: #d17f38;
+   font-size: 2.5em;
 }
 
 h3 {
-
+   margin: 0;
 }
 
 p.lead {
    text-align: center;
-  font-size: 1.5em;
-  margin: 0;
-  margin-top: -25px;
+   font-size: 1.7em;
+   margin: 0;
+   margin-top: -25px;
    
 }
 
 p {
-
+  
 }
 
 a:link, a:visited {
-
+   color:#d17f38; 
 }
 
 a:hover {
@@ -79,8 +80,10 @@ hr {
    background-size: contain;
    background-repeat: no-repeat;
    background-position: 50% 0; 
-   padding: 20px;
+   padding: 15px;
    border: none;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 
 
@@ -88,6 +91,8 @@ hr {
 
 header nav {
    text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 
 header nav ul {
@@ -106,16 +111,17 @@ header nav ul li a {
    text-decoration: unset;
    color:#d17f38;
    width: 100%;
-   margin: 5px;  
+   margin: 20px;  
+   font-weight: bold;
 }
 
 header nav ul li a:hover {
    color: black;
    background-image: url(../images/tiny-donut.png);
    background-repeat: no-repeat;
-   background-size: contain;
    background-position: 50% -5%;
    padding-top: 20px;
+   transition: background-position-x 0.4s ease-in-out;
    
 }
 
@@ -123,26 +129,24 @@ header nav ul li#logo a {
    background-image: url(../images/logo.png);
    background-size: contain;
    background-repeat: no-repeat;
-   padding: 50px;
-   color: transparent;
-   
+   padding: 60px;
+   color: transparent; 
 }
 
 header nav ul li#logo a:hover {
    background-image: url(../images/logo-hover.png);
    background-size: contain;
    background-repeat: no-repeat;
-   padding: 50px;
-   color: transparent;
+   padding: 60px;
+   color: transparent; 
 }
 
 
 /* Hero */
 
 #hero {
-   background-image: url(../images/bg-tile-yellow.gif);
-   
-   
+   background-color: #e8c04f;
+   padding: 30px 0;
 }
 
 #hero .container {
@@ -156,7 +160,7 @@ header nav ul li#logo a:hover {
    background-repeat: no-repeat;
    position: absolute;
    padding: 75px;
-   top: -35px;
+   top: -67px;
    right: -250px;
    color: transparent; 
 
@@ -174,6 +178,12 @@ header nav ul li#logo a:hover {
    float: right;
    width: 25%;
    font-size: 0.8em;
+   background-image: url(../images/award.png);
+   background-size: 100px;
+   background-repeat: no-repeat;
+   background-position-y: 25px;
+   padding: 35px 30px 0px 110px;
+   margin: 0 !important;
    
    
 }
@@ -185,6 +195,7 @@ header nav ul li#logo a:hover {
   background-image: url(../images/assorted-donuts.png);
   background-repeat: no-repeat;
   background-position-x: 100%;
+  font-size: 0.9em;
 }
 
 #feature-image {
@@ -201,6 +212,7 @@ header nav ul li#logo a:hover {
    background-image: url(../images/icon-news.png); 
    background-repeat: no-repeat;
    padding-left: 5%;
+   margin-bottom: 2%;
 }
 
 #news-events article.event {
@@ -227,11 +239,13 @@ header nav ul li#logo a:hover {
 
 footer.main {
   background-image: url(../images/bg-tile-brown.gif);
-  text-align: center;
-  color: white;
+  color: #f2f3ee;
   margin-top: 3%;
   padding-top: 2%;
   padding-bottom: 2%;
+  padding-left: 2%;
+  
+  line-height: 0;
 }
 
 footer.main a:hover {
@@ -239,16 +253,20 @@ footer.main a:hover {
 }
 
 #uncopyright, #credits {
-
+   margin: 0;
+   
 }
 
 #uncopyright {
    background-image: url(../images/icon-recycle.png);
-   background-size: 30px;
    background-position: 0 50%;
    background-repeat: no-repeat;
+   background-size: 40px;
    width: 400px;
    float: left;
+   padding-left: 5%;
+   margin-top: 16px;
+   
 
 }
 
@@ -258,8 +276,10 @@ footer.main a:hover {
    background-position: 0 50%;
    background-repeat: no-repeat;
    float: right;
-   width: 200px;
-   padding-left: 25px;
+   width: 250px;
+   padding-left: 5%;
+   line-height: 16px
+ 
 }
 
 
