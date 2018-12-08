@@ -1,6 +1,12 @@
-/*
- * Reflection autours du css 
+ /*
+ *  Reflection autours du css 
  *  Choix d'une police style terminal
  *  couleur en adequation avec l'idée 
- *  transformation de la photo en ascii art ou amiga style
+ *  transformation de la photo en ascii art 
+ *  ou amiga style
  */
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
