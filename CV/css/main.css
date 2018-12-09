@@ -1,9 +1,6 @@
  /*
  *  Reflection autours du css 
- *  Choix d'une police style terminal
- *  couleur en adequation avec l'idée 
- *  transformation de la photo en ascii art 
- *  ou amiga style
+ *  Choix d'une police etc
  */
 
  *{
@@ -19,8 +16,19 @@ main {
     width: 80%;
     margin: auto;
 }
+
 li {
     list-style-type: none;
+}
+
+h1 , h2 , h3 {
+    color: whitesmoke;
+    text-decoration: floralwhite;
+    text-shadow: 0px 0px 2px white;
+}
+
+hr{
+    width: 40%;
 }
 /******************
 ******************/
@@ -43,14 +51,41 @@ li {
 }
 /******************
 ******************/
-.competence {
+.section02{
    width: 80%; 
    margin: auto;
    border: 2px solid black;   
 }
-.first-section {
+.first-block {
     display: flex;
+    border-right: 2px double white;
+    border-left: 2px double white;
 }
-.second-section {
+
+.formation {
+    width: 50%;
+    margin: auto;
+}
+.experience {
+    width: 50%;
+    margin: auto;
+}
+
+.second-block {
     display: flex;
+    border-right: 2px double white;
+    border-left: 2px double white;
+}
+
+.competence {
+    width: 50%;
+    margin: auto;
+}
+.hobbies {
+    width: 50%;
+    margin-left: auto;
+}
+
+footer {
+    text-align: center;
 }
