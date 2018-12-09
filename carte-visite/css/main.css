@@ -11,7 +11,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr  ;
     grid-template-rows: 1fr 1fr  ;
     color: #060608;
     background-color: #a696c8;
@@ -23,6 +23,7 @@ main {
 
 .first {
     padding-left: 25px;  
+    margin: auto;
 }
 
 .second {
