@@ -13,7 +13,9 @@ public class Input {
 		    String inputName = scan.nextLine(); // create the inputName var = to the input of user
 		    
 		    System.out.println( "Hello" + " " + inputName); // printing the result 
-	
+		    
+		    scan.close();
+		   
 	}
 
 }
