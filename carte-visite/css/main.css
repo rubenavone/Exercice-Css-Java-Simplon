@@ -1,0 +1,26 @@
+body {
+    width: 60%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+h1{
+    padding-left: 10px;   
+}
+
+h2{
+    padding-left: 10px;
+    grid-row-start: 2;
+}
+p {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    margin: auto;
+    text-align: center;
+}
