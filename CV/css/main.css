@@ -7,6 +7,50 @@
  */
 
  *{
-     margin: 0;
-     padding: 0;
+
  }
+body{
+    width: 100%;
+    background-color: black;
+    color: grey;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+}
+/******************
+******************/
+ header{
+     text-align: center;
+ }
+
+/******************
+******************/
+.photo {
+    display: flex; 
+}
+.photo > img {
+    width : 20%;
+}
+
+.photo > blockquote {
+    padding-top: 50px;
+   font-size: 1.3em;
+}
+/******************
+******************/
+.competence {
+   width: 80%; 
+   margin: auto;
+   border: 2px solid black;   
+}
+.first-section {
+    display: flex;
+}
+.second-section {
+    display: flex;
+}

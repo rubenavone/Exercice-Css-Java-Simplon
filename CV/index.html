@@ -12,31 +12,44 @@
     <!-- Réalisation d'un cv a partir d'une maquette fait sur papier
             J'ai choisis de faire un cv en mode terminal
             Pour le contenue ecrit je prend mon cv actuelle -->
-
+        <main>
+             <!--HEADER-->
             <header id="introduction">
                 <h1> Ruben Navone</h1>
                 <h2>Développeur web</h2>
             </header>
+             <!--HEADER END-->
+
             <hr>
-            <section id="photo">
+
+             <!--SECTION 01-->
+            <section class="photo" >
+
                 <!--PHOTO-->
                 <img src="img/rub.jpeg" alt="photo-de-moi">
-                <!--Information relative en dessous age etc-->
-                <ul>
-                    <li>age : 29ans</li>
-                    <li>ville: Montpellier</li>
-                    <li><a href="*">Contact</a></li>
-                    <li>Mobilité: Montpellier seulement</li>
-                </ul>
+
+             
+
                 <blockquote>
+                    <p>
                    <q>Le combat contre le temps est la seule activité digne d'un écrivain.</q>
                    <cite>Howard Phillips Lovecraft</cite>
                 </blockquote>
-
+            </p>
             </section>
+             <!--SECTION 01 END-->
+   <!--Information relative en dessous age etc-->
+   <ul>
+        <li>age : 29ans</li>
+        <li>ville: Montpellier</li>
+        <li><a href="*">Contact</a></li>
+        <li>Mobilité: Montpellier seulement</li>
+    </ul>
             <hr>
-            <section id="competence">
-                <div></div>
+
+             <!--SECTION 02-->
+            <section class="competence">
+                <div class="first-section">
                     <div class="formation">
                         <ul>
                             <h3>Formation</h3>
@@ -58,9 +71,10 @@
                         </ul>
                     </div>
 
-                    <div>
                 </div>
-                    <div class="competence">
+                </div>
+                <div class="second-section">
+                    <div>
                         <ul>
                             <h3>Compétences</h3>
                             <li>
@@ -95,13 +109,20 @@
                             <li>Randonée (compostelle 700km en un mois)</li>
                         </ul>
                     </div>
+                    </div>
                 </div>
             </section>
+             <!--SECTION 02 END-->
+
             <hr>
+
+             <!--FOOTER-->
             <footer>
                 <!--Divers info relative cc et autres-->
                 <p>cc ruben navone</p>
                 <p>Merci de votre visite</p>
             </footer>
+             <!--FOOTER END-->
+            </main>
 </body>
 </html>
